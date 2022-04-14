@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Алексей Верещагин](https://up.htmlacademy.ru/adaptive/25/user/2023269).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Нюкало](https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
