@@ -1,1 +1,60 @@
-// Начните писать стили здесь
+@use "./blocks/main-header.scss";
+@use "./blocks/main-banner.scss";
+@use "./blocks/advantages.scss";
+@use "./blocks/contacts.scss";
+@use "./blocks/dewloud.scss";
+@use "./blocks/product.scss";
+@use "./blocks/reviews.scss";
+@use "./blocks/main-body.scss";
+@use "./blocks/footer.scss";
+
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensans.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensans.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/opensansbold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/opensansbold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensanslight.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensanslight.woff2") format("woff2");
+  font-display: swap;
+}
+
+
