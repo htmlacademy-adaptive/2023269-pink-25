@@ -1,0 +1,176 @@
+.main-header {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-nav {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.banner__title-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.app-download {
+  background-color: #1D2631;
+}
+
+.app-download__info {
+  color: #ffffff;
+}
+
+.advantages__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.advantages__list {
+  list-style-type: none;
+}
+
+.item__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.item__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contacts__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.contacts__email-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.contacts__address-text, .contacts__email-text, .contacts__phone-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #D22856;
+}
+
+.product-item__title-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.product-item__title-price {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.product-item__option--title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.reviews__author-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.reviews__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.page__body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../img/main-bg.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #283645;
+}
+
+.page {
+  width: 320px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensans.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/opensansbold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/opensansbold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensanslight.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/opensanslight.woff2") format("woff2");
+  font-display: swap;
+}
+/*# sourceMappingURL=style.css.map */
