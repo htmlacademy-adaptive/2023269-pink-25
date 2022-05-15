@@ -1,4 +1,4 @@
-@use "./blocks/main-header.scss";
+@use "./blocks/fonts.scss";
 @use "./blocks/main-banner.scss";
 @use "./blocks/advantages.scss";
 @use "./blocks/contacts.scss";
@@ -7,54 +7,25 @@
 @use "./blocks/reviews.scss";
 @use "./blocks/main-body.scss";
 @use "./blocks/footer.scss";
-
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/opensans.woff") format("woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/opensans.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/opensansbold.woff") format("woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/opensansbold.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/opensanslight.woff") format("woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/opensanslight.woff2") format("woff2");
-  font-display: swap;
-}
-
-
+@use "./blocks/advantages-list.scss";
+@use "./blocks/header-logo.scss";
+@use "./blocks/main-header.scss";
+@use "./blocks/main-nav.scss";
+@use "./blocks/product-list.scss";
+@use "./blocks/versions-list.scss";
+@use "./blocks/visuality-hidden.scss";
+@use "./blocks/main-page.scss";
+@use "./blocks/form-banner.scss";
+@use "./blocks/form-container.scss";
+@use "./blocks/form-name.scss";
+@use "./blocks/form-achievements.scss";
+@use "./blocks/achievements-item.scss";
+@use "./blocks/form-email.scss";
+@use "./blocks/form-app.scss";
+@use "./blocks/app-item.scss";
+@use "./blocks/form-review.scss";
+@use "./blocks/catalog-banner.scss";
+@use "./blocks/catalog-photos.scss";
+@use "./blocks/photos-item.scss";
+@use "./blocks/catalog-upload.scss";
+@use "./blocks/catalog-list.scss";

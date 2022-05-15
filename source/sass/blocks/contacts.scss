@@ -11,15 +11,26 @@
   line-height: 25px;
 }
 
-.contacts {
-  &__address-text,
-  &__email-text,
-  &__phone-text {
-    font-style: normal;
+.contacts__address-text {
+  font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
   color: #D22856;
-  }
 }
 
+.contacts__email-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #D22856;
+}
+
+.contacts__phone-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #D22856;
+}
