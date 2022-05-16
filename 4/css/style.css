@@ -53,45 +53,33 @@
   font-size: 24px;
 }
 
+.advantages__list {
+  list-style-type: none;
+}
+
 .contacts__title {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
 }
 
-.contacts__email-title {
+.contacts__title-text {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
 }
 
-.contacts__address-text {
+.contacts__text {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
-  color: #D22856;
-}
-
-.contacts__email-text {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #D22856;
-}
-
-.contacts__phone-text {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #D22856;
+  color: #d22855;
 }
 
 .app-download {
-  background-color: #1D2631;
+  background-color: #1d2631;
 }
 
 .app-download__info {
@@ -112,6 +100,10 @@
   line-height: 30px;
 }
 
+.page {
+  width: 320px;
+}
+
 .page__body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -119,10 +111,6 @@
   background-repeat: no-repeat;
   background-position: top;
   color: #283645;
-}
-
-.advantages__list {
-  list-style-type: none;
 }
 
 .item__title {
@@ -185,10 +173,6 @@
   width: 1px;
 }
 
-.page {
-  width: 320px;
-}
-
 .form-banner__title-text {
   font-style: normal;
   font-weight: 300;
@@ -202,7 +186,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  color: #D22856;
+  color: #d22856;
 }
 
 .form-achievements__title {
@@ -210,7 +194,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #D22856;
+  color: #d22856;
 }
 
 .achievements-item__title {
@@ -226,7 +210,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  color: #D22856;
+  color: #d22856;
 }
 
 .form-app__title {
@@ -234,7 +218,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #D22856;
+  color: #d22856;
 }
 
 .app-item__title {
@@ -250,14 +234,18 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #D22856;
+  color: #d22856;
 }
 
 .catalog-banner__title-text {
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.catalog-photos__list {
+  padding: 0;
 }
 
 .catalog-photos__title {
@@ -297,18 +285,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  color: #D22856;
-}
-
-.catalog-upload__title {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  color: #283645;
-}
-
-.catalog-photos__list {
-  padding: 0;
+  color: #d22856;
 }
 /*# sourceMappingURL=style.css.map */
