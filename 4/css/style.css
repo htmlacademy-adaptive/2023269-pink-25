@@ -86,6 +86,11 @@
   color: #ffffff;
 }
 
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .reviews__author-name {
   font-style: normal;
   font-weight: 700;
@@ -111,6 +116,11 @@
   background-repeat: no-repeat;
   background-position: top;
   color: #283645;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .item__title {
@@ -160,6 +170,11 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
+}
+
+.versions-list {
+  display: grid;
+  grid-template-columns: 45px 45px 45px;
 }
 
 .visually-hidden {
@@ -286,5 +301,10 @@
   font-size: 12px;
   line-height: 24px;
   color: #d22856;
+}
+
+.catalog-upload {
+  display: flex;
+  flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
