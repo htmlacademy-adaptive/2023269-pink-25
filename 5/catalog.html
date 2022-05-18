@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Галерея пользователей Пинк</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <base href="https://htmlacademy-adaptive.github.io/2023269-pink-25/5/">
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img src="img/main-logo.svg" width="74" height="23" alt="Сервис «PINK».">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a>html academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="catalog-container">
+    <section class="catalog-container__banner catalog-banner">
+      <h1 class="catalog-banner__title-text">Фотографии пользователей</h1>
+    </section>
+    <section class="catalog-container__photos catalog-photos">
+      <h2 class="catalog-photos__title catalog-title">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</h2>
+      <ul class="catalog-photos__list">
+        <li class="catalog-photos__item photos-item catalog-photos__item--favorites">
+          <img class="photos-item__img" src="img/photo-anna.png" alt="Фото пользователя Анна.">
+          <b class="photos-item__autor-name">Анна</b>
+          <p class="photos-item__autor-online">(5 минут назад)</p>
+          <p class="photos-item__autor-text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+          <p class="photos-item__likes">Нравится: 215</p>
+        </li>
+        <li class="catalog-photos__item photos-item">
+          <img class="photos-item__img" src="img/photo-levon.png" alt="Фото пользователя Левон.">
+          <b class="photos-item__autor-name">Левон</b>
+          <p class="photos-item__autor-online">(5 часов назад)</p>
+          <p class="photos-item__autor-text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <p class="photos-item__likes">Нравится: 356</p>
+        </li>
+        <li class="catalog-photos__item photos-item">
+          <img class="photos-item__img" src="img/photo-anton.png" alt="Фото пользователя Антон.">
+          <b class="photos-item__autor-name">Антон</b>
+          <p class="photos-item__autor-online">(12 часов назад)</p>
+          <p class="photos-item__autor-text">Соседи будут рады!</p>
+          <p class="photos-item__likes">Нравится: 666</p>
+        </li>
+        <li class="catalog-photos__item photos-item">
+          <img class="photos-item__img" src="img/photo-boris.png" alt="Фото пользователя Борис.">
+          <b class="photos-item__autor-name">Борис</b>
+          <p class="photos-item__autor-online">(20 часов назад)</p>
+          <p class="photos-item__autor-text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <p class="photos-item__likes">Нравится: 215</p>
+        </li>
+        <li class="catalog-photos__item photos-item">
+          <img class="photos-item__img" src="img/photo-sergey.png" alt="Фото пользователя Сергей.">
+          <b class="photos-item__autor-name">Сергей</b>
+          <p class="photos-item__autor-online">(25 часов назад)</p>
+          <p class="photos-item__autor-text">Самая кубанская в мире!</p>
+          <p class="photos-item__likes">Нравится: 4</p>
+        </li>
+        <li class="catalog-photos__item photos-item">
+          <img class="photos-item__img" src="img/photo-maxim.png" alt="Фото пользователя Максим.">
+          <b class="photos-item__autor-name">Максим</b>
+          <p class="photos-item__autor-online">(40 часов назад)</p>
+          <p class="photos-item__autor-text">Где снег-то?</p>
+          <p class="photos-item__likes">Нравится: 150</p>
+        </li>
+        <li class="catalog-photos__item photos-item">
+          <img class="photos-item__img" src="img/photo-nadejda.png" alt="Фото пользователя Надежда.">
+          <b class="photos-item__autor-name">Надежда</b>
+          <p class="photos-item__autor-online">(45 часов назад)</p>
+          <p class="photos-item__autor-text">Всем GM и взаимные лайки!</p>
+          <p class="photos-item__likes">Нравится: 2560</p>
+        </li>
+      </ul>
+    </section>
+    <section class="catalog-container__upload catalog-upload">
+      <h2 class="catalog-upload__title catalog-title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</h2>
+      <img class="catalog-upload__img" src="img/photo-user.png" alt="Ваше фото.">
+      <p class="catalog-upload__filters upload-filters">
+        <button class="upload-filters__choice upload-filters__choice--crop upload-filters__choice--active" type="button"><span class="visually-hidden">Crop</span></button>
+        <button class="upload-filters__choice upload-filters__choice--fill" type="button"><span class="visually-hidden">Fill</span></button>
+        <button class="upload-filters__choice upload-filters__choice--contrast" type="button"><span class="visually-hidden">Contrast</span></button>
+      </p>
+      <button class="catalog-upload__button catalog-upload__button--apply button" type="submit">Запостить</button>
+      <button class="catalog-upload__button catalog-upload__button--reset button" type="reset">Отмена</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__wrapper footer-wrapper">
+      <div class="footer-wrapper__logo">
+        <span class="visually-hidden">Логотип проекта</span>
+        <img src="img/glasses.svg" alt="логотип проекта Пинк.">
+      </div>
+      <div class="footer-wrapper social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="№">
+              <span class="visually-hidden">Мы в Вконтакте</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="№">
+              <span class="visually-hidden">Мы в Телеграме</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="№">
+              <span class="visually-hidden">Мы в Ютуб</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+
+
+</html>
