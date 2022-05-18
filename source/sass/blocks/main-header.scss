@@ -1,3 +1,40 @@
 .main-header {
+  position: absolute;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 66px;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-header__nav {
+  width: 280px;
+}
+
+@media (min-width: 450px) {
+  .main-header {
+    width: 660px;
+    height: 110px;
+  }
+
+  .main-header__nav {
+    width: 620px;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-header {
+    width: 1200px;
+  }
+
+  .main-header__toggle {
+    display: none;
+  }
+
+  .main-header__nav {
+    width: 800px;
+  }
 }

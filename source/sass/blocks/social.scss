@@ -1,0 +1,15 @@
+.social-list {
+  display: grid;
+  grid-template-columns: 54px 54px 54px;
+  gap: 12px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.social-list__item {
+  width: 54px;
+  height: 54px;
+  box-shadow: 0 0 4px 0;
+  border-radius: 50%;
+  list-style: none;
+}

@@ -1,0 +1,30 @@
+.site-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-list__item {
+  margin: 15px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.site-list__item a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (min-width: 960px) {
+  .site-list {
+    flex-direction: row;
+  }
+
+  .site-list__item {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,22 @@
+.our-contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media (min-width: 450px) {
+  .our-contacts__info {
+    width: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .our-contacts {
+    width: 900px;
+  }
+
+  .our-contacts__info {
+    width: 33%;
+  }
+}

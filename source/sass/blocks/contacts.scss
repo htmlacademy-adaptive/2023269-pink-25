@@ -1,20 +1,30 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 .contacts__title {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
+  text-align: center;
 }
 
-.contacts__title-text {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
+@media (min-width: 450px) {
+  .contacts__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+  }
 }
 
-.contacts__text {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #d22855;
+@media (min-width: 960px) {
+  .contacts__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 68px;
+  }
 }
