@@ -80,16 +80,12 @@
 
 @media (min-width: 450px) {
   .advantages__title {
-    font-style: normal;
-    font-weight: 300;
     font-size: 40px;
     line-height: 54px;
   }
 }
 @media (min-width: 960px) {
   .advantages__title {
-    font-style: normal;
-    font-weight: 300;
     font-size: 50px;
     line-height: 68px;
   }
@@ -109,16 +105,12 @@
 
 @media (min-width: 450px) {
   .contacts__title {
-    font-style: normal;
-    font-weight: 300;
     font-size: 40px;
     line-height: 54px;
   }
 }
 @media (min-width: 960px) {
   .contacts__title {
-    font-style: normal;
-    font-weight: 300;
     font-size: 50px;
     line-height: 68px;
   }
@@ -144,7 +136,6 @@
 }
 .product {
   padding: 20px;
-  overflow: hidden;
 }
 
 .author-info {
@@ -193,6 +184,7 @@
 }
 
 .page__body {
+  width: 100%;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   color: #283645;
@@ -236,15 +228,11 @@
 
 @media (min-width: 960px) {
   .item__title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 30px;
     line-height: 30px;
   }
 
   .item__text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 30px;
   }
@@ -487,20 +475,23 @@
   box-sizing: border-box;
   padding-top: 50px;
   margin-right: auto;
-  background-image: url("../img/main-bg.svg");
+  background-image: url("../img/main-bg-desktop.jpg");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  background-size: cover;
   background-color: #1d2631;
 }
 
 @media (min-width: 450px) {
   .download {
     padding-right: 400px;
+    background-image: url("../img/main-bg-table.jpg");
   }
 }
 @media (min-width: 960px) {
   .download {
     padding-right: 900px;
+    background-image: url("../img/main-bg-desktop.jpg");
   }
 }
 .main-nav__list {
@@ -546,10 +537,15 @@
 }
 
 .product-list {
-  width: 660px;
+  width: 276px;
   margin: 0 auto;
 }
 
+@media (min-width: 450px) {
+  .product-list {
+    width: 600px;
+  }
+}
 .contacts-info__title-text {
   display: block;
   font-style: normal;
