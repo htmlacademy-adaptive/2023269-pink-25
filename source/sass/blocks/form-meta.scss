@@ -1,0 +1,85 @@
+.form-meta__title,
+.form-meta__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+  text-align: center;
+}
+
+.form-meta__text {
+  display: none;
+}
+
+@media (min-width: 450px) {
+  .form-meta__title {
+    padding: 0 40px;
+    font-size: 18px;
+  }
+
+  .form-meta__text {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .form-meta {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form-meta__app {
+    order: 3;
+  }
+
+  .form-meta__email {
+    order: 4;
+  }
+
+  .form-meta__achievements {
+    order: 5;
+  }
+
+  .form-meta__review {
+    order: 6;
+  }
+
+  .form-meta__submit {
+    order: 7;
+  }
+}
+
+@media (min-width: 960px) {
+  .form-meta {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form-meta__name {
+    box-sizing: border-box;
+    width: 49%;
+  }
+
+  .form-meta__app {
+    box-sizing: border-box;
+    width: 49%;
+  }
+
+  .form-meta__email {
+    width: 100%;
+  }
+
+  .form-meta__achievements {
+    width: 100%;
+  }
+
+  .form-meta__review {
+    width: 100%;
+  }
+
+  .form-submit {
+    width: 100%;
+  }
+}

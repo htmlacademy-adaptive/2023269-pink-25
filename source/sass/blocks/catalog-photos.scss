@@ -1,11 +1,23 @@
+.catalog-photos {
+  padding: 20px;
+}
+
 .catalog-photos__list {
   padding: 0;
 }
 
 .catalog-photos__title {
+  padding: 0 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
   color: #283645;
+  text-align: center;
+}
+
+@media (min-width: 450px) {
+  .catalog-photos__title {
+    font-size: 18px;
+  }
 }
