@@ -1,4 +1,39 @@
 .catalog-upload {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.catalog-upload__filters {
+  display: block;
+  margin: 20px auto;
+}
+
+.catalog-upload__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+  text-align: center;
+}
+
+@media (min-width: 450px) {
+  .catalog-upload {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .catalog-upload__img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+
+@media (min-width: 960px) {
+  .catalog-upload {
+    grid-template-columns: 1fr 2fr;
+  }
 }

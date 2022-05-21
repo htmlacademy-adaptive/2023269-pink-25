@@ -2,6 +2,18 @@
   background-color: rgb(29, 38, 49);
 }
 
+.app-download__button {
+  display: block;
+  margin: 0 auto;
+}
+
 .app-download__info {
+  text-align: center;
   color: #ffffff;
+}
+
+@media (min-width: 450px) {
+  .app-download {
+    background: none;
+  }
 }

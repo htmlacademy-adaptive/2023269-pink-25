@@ -1,0 +1,25 @@
+.advantages-list {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+@media (min-width: 450px) {
+  .advantages-list {
+    margin: 0;
+    margin-left: auto;
+    text-align: start;
+  }
+}
+
+@media (min-width: 960px) {
+  .advantages-list {
+    margin: 0 auto;
+    width: 900px;
+    flex-direction: row;
+  }
+}

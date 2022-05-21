@@ -1,3 +1,31 @@
 .main-header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 66px;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-header__nav {
+  width: 100%;
+}
+
+@media (min-width: 450px) {
+  .main-header {
+    height: 110px;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-header__toggle {
+    display: none;
+  }
+
+  .main-header__nav {
+    width: 70%;
+  }
 }

@@ -1,0 +1,26 @@
+.download {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 50px;
+  margin-right: auto;
+  background-image: url("../img/main-bg-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #1d2631;
+}
+
+@media (min-width: 450px) {
+  .download {
+    padding-right: 400px;
+    background-image: url("../img/main-bg-table.jpg");
+  }
+}
+
+@media (min-width: 960px) {
+  .download {
+    padding-right: 900px;
+    background-image: url("../img/main-bg-desktop.jpg");
+  }
+}

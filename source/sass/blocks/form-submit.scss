@@ -1,0 +1,21 @@
+.form-submit {
+  padding: 22px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-submit__mark {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 450px) {
+  .form-submit {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,7 +1,39 @@
-.form-banner__title-text {
+.form-banner__title {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
   color: #ffffff;
+  text-align: center;
+}
+
+.form-banner {
+  padding: 50px 46px 30px;
+  background-image: url("../img/main-bg-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #1d2631;
+}
+
+@media (min-width: 450px) {
+  .form-banner__title {
+    font-size: 50px;
+    line-height: 68px;
+  }
+
+  .form-banner {
+    background-image: url("../img/main-bg-table.jpg");
+  }
+}
+
+@media (min-width: 960px) {
+  .form-banner__title {
+    font-size: 50px;
+    line-height: 68px;
+  }
+
+  .form-banner {
+    background-image: url("../img/main-bg-desktop.jpg");
+  }
 }

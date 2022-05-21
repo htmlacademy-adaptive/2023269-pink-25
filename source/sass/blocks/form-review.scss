@@ -1,7 +1,45 @@
+.form-review {
+  padding: 50px 22px 22px;
+  margin: 0;
+  border: none;
+}
+
 .form-review__title {
+  position: relative;
+  top: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: #d22856;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-review__input {
+  display: block;
+  height: 200px;
+  width: 276px;
+  margin: 0 auto;
+}
+
+@media (min-width: 450px) {
+  .form-review {
+    border: 2px solid #e5e5e5;
+  }
+
+  .form-review__title {
+    position: static;
+  }
+
+  .form-review__input {
+    width: 500px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form-review__input {
+    height: 120px;
+    width: 800px;
+  }
 }

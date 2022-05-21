@@ -1,0 +1,10 @@
+.product-list {
+  width: 276px;
+  margin: 0 auto;
+}
+
+@media (min-width: 450px) {
+  .product-list {
+    width: 600px;
+  }
+}

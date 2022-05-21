@@ -1,0 +1,12 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+@media (min-width: 450px) {
+  .footer-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

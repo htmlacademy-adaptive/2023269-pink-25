@@ -1,12 +1,27 @@
 .page {
-  width: 320px;
+  min-width: 320px;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 .page__body {
+  position: relative;
+  width: 100%;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-image: url("../img/main-bg.svg");
-  background-repeat: no-repeat;
-  background-position: top;
   color: #283645;
+}
+
+@media (min-width: 450px) {
+  .page {
+    min-width: 450px;
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 960px) {
+  .page {
+    min-width: 960px;
+    max-width: 1200px;
+  }
 }
