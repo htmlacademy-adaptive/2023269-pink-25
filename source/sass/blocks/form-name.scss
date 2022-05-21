@@ -1,7 +1,19 @@
+.form-name {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 22px;
+  margin: 0;
+}
+
 .form-name__label {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  color: #d22856;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+@media (min-width: 450px) {
+  .form-name__label {
+    flex-direction: row;
+  }
 }

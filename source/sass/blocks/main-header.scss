@@ -1,6 +1,6 @@
 .main-header {
   position: absolute;
-  width: 320px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -11,30 +11,21 @@
 }
 
 .main-header__nav {
-  width: 280px;
+  width: 100%;
 }
 
 @media (min-width: 450px) {
   .main-header {
-    width: 660px;
     height: 110px;
-  }
-
-  .main-header__nav {
-    width: 620px;
   }
 }
 
 @media (min-width: 960px) {
-  .main-header {
-    width: 1200px;
-  }
-
   .main-header__toggle {
     display: none;
   }
 
   .main-header__nav {
-    width: 800px;
+    width: 70%;
   }
 }
